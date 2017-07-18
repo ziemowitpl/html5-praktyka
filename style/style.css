@@ -1,12 +1,13 @@
-/*Maly reste styli*/
+/*Maly reste styli - winny braku wcięć w liście definicji*/
 
-* {
+/** {
     margin: 0;
     padding: 0;
-}
-/*tło całego okna przeglądarki*/
+}*/
+/*tło całego okna przeglądarki, margin:0 - aby zniwelować odstęp od góry*/
 body {
     background-color: #aa9739;
+    margin-top: 0;
 
 }
 /*element otaczający stronę; margin: 0 auta dla wyśrodkowania strony oraz szerokość ustalona na 80% aby było jakieś tło po bokach; kolor tła*/
@@ -15,6 +16,7 @@ body {
     height: 100%;
     width: 80%;
     background-color: #DDBD25;
+
 }
 /*kolorki podstawowych znaczników dla całej www*/
 p {
