@@ -1,3 +1,5 @@
-Zaczynam pracę z github ;D
+﻿Zaczynam pracę z github ;D
 Muszę namówić Mońka na ten system!!!
 Trzeba rozwiąć problem z źle formatowanymi div-ami w sekcji na podstronie materialy.html ...
+
+Zadanie na jutro, oglądać przez ~60 min kurs o HTML5.1!!!
