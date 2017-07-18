@@ -3,3 +3,12 @@ Muszę namówić Mońka na ten system!!!
 Trzeba rozwiąć problem z źle formatowanymi div-ami w sekcji na podstronie materialy.html ...
 
 Zadanie na jutro, oglądać przez ~60 min kurs o HTML5.1!!!
+
+Wtorek 18.07.2017
+Zadanie wykonane ponad miarę siedzę i kodzę, co prawda zamieszanie panuje straszne
+w pliku style.css ale po mału do przodu.
+Jutro chcę pouczyć się kolejnych dwóch rozdziałów z kursu HTML5.1
+Planuję zakupić kolejny kurs, taki przegląd kodowania stron, chyba 79 zł ale
+komórka siada a raczej jej bateria - $$$.
+Czy Moniek sięgnie po GitHuba to jest zasadnicze pytanie...
+Chociażby tu spojrzał heh ;(
