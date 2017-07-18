@@ -77,6 +77,11 @@ section {
         /*display: flex;
         flex-wrap: wrap;*/
     }
+
+article.three {
+    width: 100%;
+    float: left;
+}
  /*flex-grow 1 aby uporządkować divy i je jakoś rozmieścić*/
  /*wykasowanie flex-grow a rozwiązanie float left*/
 div.normal-div {
