@@ -73,7 +73,18 @@ jednakowo elementy listy w menu*/
 section {
     /*position:relative;*/
         padding-bottom: 25px;
+        /*ciekawe wykorzystanie funkcji display flex*/
+        /*display: flex;
+        flex-wrap: wrap;*/
     }
+ /*flex-grow 1 aby uporządkować divy i je jakoś rozmieścić*/
+ /*wykasowanie flex-grow a rozwiązanie float left*/
+div.normal-div {
+    /*flex-grow: 1;*/
+    float:left;
+    width: 26.3%;
+    padding-left: 3.1%;
+}
 /*właściwości dla stopki, wycentrowanie tekstu, kolor tła oraz padding górny
 i dolny*/
 footer {
@@ -87,7 +98,7 @@ footer {
 
 
 .ziemo_right {
-    padding-left:100px;
+    padding-left:45px;
 }
 /*właściwości dla listy ul na dole strony, kolor czcionki i brak kropek listy*/
 .list-item {
