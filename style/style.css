@@ -1,0 +1,118 @@
+/*Maly reste styli*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*tło całego okna przeglądarki*/
+body {
+    background-color: #aa9739;
+
+}
+/*element otaczający stronę; margin: 0 auta dla wyśrodkowania strony oraz szerokość ustalona na 80% aby było jakieś tło po bokach; kolor tła*/
+.wrapper {
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    background-color: #DDBD25;
+}
+/*kolorki podstawowych znaczników dla całej www*/
+p {
+    color: #45412D;
+}
+
+h1 {
+    color: #45412D;
+}
+
+a {
+    color: white;
+}
+
+li {
+    color: #45412D;
+}
+/*ID wyróżniające nawigację główną z wycentrowaniem tekstu, kolorem tła i
+dodaniem paddingu czyli przestrzeni z tłem wokół napisów/linków*/
+#main-nav {
+    position: relative;
+    text-align: center;
+    background-color: #FFD301;
+    padding: 10px 25px 25px;
+}
+/*id dla listy ul dodany margines górny, zresetowany padding, usunięcie punktorów
+listy i nowa właściwość css zamiast float czyli display: flewx; oraz dodanie
+w razie czego flex-wrap: wrap; dla małych ekranów (na wyrost)*/
+ul#main-menu {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*id dla listy nienumerowanej i funkcja dla znaczników li, tak aby porządkowało
+jednakowo elementy listy w menu*/
+#main-menu li {
+    flex-grow: 1;
+}
+/*właściwości dla nawigacji głównej, jej odnośników/linków czyli brak podkreślenia i kolor czcionki*/
+#main-menu li a {
+    text-decoration: none;
+    color: #776D3B;
+}
+/*właściwości dla tzw.logo*/
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    }
+/*właściwości dla sekcji, wycentrowanie tekstu oraz dodanie dolnego paddingu*/
+section {
+    position:relative;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+/*właściwości dla stopki, wycentrowanie tekstu, kolor tła oraz padding górny
+i dolny*/
+footer {
+    position: relative;
+    /*float:left;*/
+    clear: both;
+    text-align: center;
+    background-color: #776D3B;
+    padding: 25px 0px;
+}
+/*właściwości dla listy ul na dole strony, kolor czcionki i brak kropek listy*/
+.list-item {
+    color: #45412D;
+    list-style:none;
+}
+section.sekcja-materialy {
+    position: relative;
+
+}
+div.d-materialy {
+position: relative;
+float:left;
+    left:0px;
+    background-color: red;
+    width: 50%;
+    height: 600px;
+    padding-top: 25px;
+}
+
+ul.list-materialy {
+    text-decoration: none;
+    list-style: none;
+}
+
+div.d-wytlumaczenie {
+position: relative;
+float:right;
+    right:0px;
+    background-color: grey;
+    width: 50%;
+    height:600px;
+    padding-top: 25px;
+}
