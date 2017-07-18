@@ -69,7 +69,7 @@ jednakowo elementy listy w menu*/
     }
 /*właściwości dla sekcji, wycentrowanie tekstu oraz dodanie dolnego paddingu*/
 section {
-    position:relative;
+    /*position:relative;*/
         padding-bottom: 25px;
     }
 /*właściwości dla stopki, wycentrowanie tekstu, kolor tła oraz padding górny
