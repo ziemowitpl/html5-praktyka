@@ -13,3 +13,11 @@ komórka siada a raczej jej bateria - $$$.
 Czy Moniek sięgnie po GitHuba to jest zasadnicze pytanie...
 Chociażby tu spojrzał heh ;(
 Jutro zrobić kod z lekcji "Formularze".
+
+Środa 19.07.2017
+Formularzew powtórzone lecz z trudem...
+Nie działa walidacja w textarea z niewyjaśnionych powodów.
+Jutro przerobić: "Jak wyznaczyć strukturę strony" i może
+stworzyć nową podstronę...
+Lekcji: 8
+Uczyć się samemu, nie ma co liczyć na kumpli!
