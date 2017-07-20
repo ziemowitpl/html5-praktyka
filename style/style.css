@@ -70,7 +70,7 @@ jednakowo elementy listy w menu*/
     text-decoration: none;
     }
 /*właściwości dla sekcji, wycentrowanie tekstu oraz dodanie dolnego paddingu*/
-section {
+main {
     /*position:relative;*/
         padding-bottom: 25px;
         /*ciekawe wykorzystanie funkcji display flex*/
@@ -78,13 +78,13 @@ section {
         flex-wrap: wrap;*/
     }
 
-article.three {
+section.three {
     width: 100%;
     float: left;
 }
  /*flex-grow 1 aby uporządkować divy i je jakoś rozmieścić*/
  /*wykasowanie flex-grow a rozwiązanie float left*/
-div.normal-div {
+article.normal-article {
     /*flex-grow: 1;*/
     float:left;
     width: 26.3%;
