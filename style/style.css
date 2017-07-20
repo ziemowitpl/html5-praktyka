@@ -31,12 +31,30 @@ h3.naglowek_trzy {
 }
 
 a {
-    color: #DDBD25;
+    color: black;
 }
 
 li {
     color: #45412D;
 }
+
+span {
+    color: green;
+}
+
+section.section-logo {
+    position: relative;
+    background-color: #FFD301;
+    text-align: center;
+
+}
+
+section.kotwica {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
 /*ID wyróżniające nawigację główną z wycentrowaniem tekstu, kolorem tła i
 dodaniem paddingu czyli przestrzeni z tłem wokół napisów/linków*/
 #main-nav {
