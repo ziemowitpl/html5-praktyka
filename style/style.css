@@ -26,9 +26,12 @@ p {
 h1 {
     color: #45412D;
 }
+h3.naglowek_trzy {
+    color:#45412D;
+}
 
 a {
-    color: white;
+    color: #DDBD25;
 }
 
 li {
