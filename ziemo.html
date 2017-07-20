@@ -12,9 +12,10 @@
 
     <!-- wrapper czyli otoczka całego ciała strony -->
 
-    <div class="wrapper">
+    <article class="wrapper">
 
         <!-- główna nawigacja na stronie razem z identyfikatorem id -->
+<header>
 
         <nav id="main-nav">
             <!-- link czyli nasza nazwa tzw. logo -->
@@ -27,14 +28,20 @@
                 <li><a class="menu-link" href="materialy-z.html">Materiały</a></li>
             </ul>
         </nav>
-        <!-- sekcja czyli środek mojej stronki z nagłówkiem, akapitami, łamaniem akapitu tzw br oraz odnośnikami/linkami -->
-        <section>
-            <article class="three">
-                <a href="#dol">Dół strony - Kotwica</a>
-            </article>
-            <article class="three">
 
-                <div class="normal-div">
+        </header>
+        
+        <!-- main czyli środek mojej stronki z nagłówkiem, akapitami, łamaniem akapitu tzw br oraz odnośnikami/linkami -->
+        <main>
+
+
+
+            <section class="three">
+                <a href="#dol">Dół strony - Kotwica</a>
+            </section>
+            <section class="three">
+
+                <article class="normal-article">
 
                     <h1>Słowem wstępu</h1>
 
@@ -50,9 +57,9 @@
 
 
 
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <p class="ziemo_right">
                         Chciałbym w głównej mierze nauczyć się następujących zagadnień:
                     </p>
@@ -73,9 +80,9 @@
                     <blockquote class="ziemo_right" cite="http://"><em>Ucz się, ucz bo nauka to do potęgi klucz!</em></blockquote>
 
 
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
 
                     <h2>Tekst preformatowany - przykłąd kodu</h2>
                     <pre class="ziemo_right">.wrapper {
@@ -94,13 +101,13 @@ background-color: #DDBD25;
                         <li>Wysłanie do GitHuba i sprawdzenie</li>
                     </ol>
 
-                </div>
+                </article>
 
-            </article>
+            </section>
             <hr>
-            <article class="three">
+            <section class="three">
 
-                <div class="normal-div">
+                <article class="normal-article">
 
                     <h2>Lista definicji</h2>
                     <!-- Dlaczego lista definicji nie wyświetla się prawidłowo?! -->
@@ -113,9 +120,9 @@ background-color: #DDBD25;
                         <dd>System zarządzania treścią</dd>
                     </dl>
 
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
 
                     <h2>Tabele znaczniki:</h2>
                     <!-- Lista definicji nie wyświetla się prawidłowo!
@@ -139,9 +146,9 @@ background-color: #DDBD25;
                         <dd>podpis tabeli</dd>
                     </dl>
 
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
 
                     <h2>Przykład tabeli</h2>
                     <table class="ziemo_right">
@@ -176,12 +183,12 @@ background-color: #DDBD25;
                         </tbody>
                     </table>
 
-                </div>
-            </article>
+                </article>
+            </section>
             <hr>
 
-            <article class="three">
-                <div class="normal-div">
+            <section class="three">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 1</h2>
                     <form action="" method="">
                         <label for="name">Imię</label><br>
@@ -194,9 +201,9 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 2</h2>
                     <p>pola: search i password</p>
                     <form action="" method="">
@@ -207,9 +214,9 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 3</h2>
                     <p>pola liczbowe</p>
                     <form action="" method="">
@@ -218,17 +225,17 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-            </article>
+            </section>
             <br>
             <hr>
             <br>
 
-            <article class="three">
+            <section class="three">
 
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 4</h2>
                     <p>pole z listą opcji</p>
                     <form action="" method="">
@@ -243,9 +250,9 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 5</h2>
                     <p>data oraz czas w formularzu</p>
                     <form action="" method="">
@@ -256,9 +263,9 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 6</h2>
                     <p>Pole typu RADIO</p>
                     <form action="" method="">
@@ -271,17 +278,17 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-            </article>
+            </section>
             <br>
             <br>
             <hr>
             <br>
 
-            <article class="three">
+            <section class="three">
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 7</h2>
                     <p>Pole typu CHECKBOX - wielokrotnego wyboru</p>
                     <form action="" method="">
@@ -296,9 +303,9 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 7</h2>
                     <p>Pole wysyłania pliku</p>
                     <form action="" method="">
@@ -308,9 +315,9 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 8</h2>
                     <p>Podstawy walidacji formularzy</p>
                     <form>
@@ -325,13 +332,13 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-            </article>
+            </section>
             <hr>
             <br>
-            <article class="three">
-                <div class="normal-div">
+            <section class="three">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 9</h2>
                     <p>Podstawy walidacji formularzy - novalidate</p>
                     <form novalidate>
@@ -341,9 +348,9 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-                <div class="normal-div">
+                <article class="normal-article">
                     <h2>Tworzenie formularzy cz 10</h2>
                     <p>Przydatne atrybuty pól</p>
                     <form novalidate>
@@ -358,24 +365,24 @@ background-color: #DDBD25;
                         <button type="submit">Wyślij</button>
                         <button type="reset">Reset</button>
                     </form>
-                </div>
+                </article>
 
-            </article>
+            </section>
 
-            <article class="three">
+            <section class="three">
 
                 <h2 id="dol">Dół strony</h2>
 
-            </article>
+            </section>
 
 
-        </section>
 
+</main>
         <!-- stopka strony -->
 
         <footer>Copyright &copy Ziemowit 2017</footer>
 
-        </div>
+        </article>
 
         <!-- Wszystkie znaczniki zgodne z HTML5 -->
 
