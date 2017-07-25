@@ -111,6 +111,12 @@ article.normal-article {
     width: 26.3%;
     padding-left: 3.1%;
 }
+
+article.sto_procent {
+    float:left;
+    width: 95%;
+    padding-left: 5%;
+}
 /*właściwości dla stopki, wycentrowanie tekstu, kolor tła oraz padding górny
 i dolny*/
 footer {
