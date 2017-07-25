@@ -165,3 +165,8 @@ float:right;
     height:600px;
     padding-top: 25px;
 }
+
+img.zombi {
+    width: 350px;
+    height: 350px;
+}
