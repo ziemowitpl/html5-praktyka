@@ -455,7 +455,14 @@ background-color: #DDBD25;
                     </iframe>
                 </article>
 
+                <article class="normal-article">
+                    <h3 class="naglowek_trzy">Znacznik CANVAS</h3>
+                    <br>
+                    <canvas id="canvas" width="400" height="400">
+                        <p>Twoja przeglądarka nie obsługuje canvas</p>
+                    </canvas>
 
+                </article>
 
             </section>
 
@@ -472,7 +479,16 @@ background-color: #DDBD25;
 
         <footer>Copyright &copy Ziemowit 2017</footer>
 
-    </article>
+        <script type="text/javascript">
+
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'red';
+        ctx.fillRect(0,0,200,200);
+        ctx.fillStyle = 'green';
+        ctx.fillRect(0,120,100,230);
+
+        </script>
 
     <!-- Wszystkie znaczniki zgodne z HTML5 -->
 
