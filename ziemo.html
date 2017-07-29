@@ -12,7 +12,7 @@
 
     <!-- wrapper czyli otoczka całego ciała strony -->
 
-    <article class="wrapper">
+    <section class="wrapper">
 
         <!-- główna nawigacja na stronie razem z identyfikatorem id -->
         <header>
@@ -464,13 +464,30 @@ background-color: #DDBD25;
 
                 </article>
 
-            </section>
+                <section class="three">
+                    <article class="normal-article">
+                        <h3 class="naglowek_trzy">Details/Summary</h3>
+                        <br>
+                        <details>
+                            <summary>Jakaś jakakolwiek treść - nagłówek</summary>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, delectus!</p>
+                        </details>
+                        <details open>
+                            <summary>Jakaś treść - siakiś nagłówek</summary>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, delectus!</p>
+                        </details>
 
-            <section class="three">
+                    </article>
 
-                <h2 id="dol">Dół strony</h2>
+                    </article>
 
-            </section>
+                </section>
+
+                <section class="three">
+
+                    <h2 id="dol">Dół strony</h2>
+
+                </section>
 
 
 
@@ -478,19 +495,17 @@ background-color: #DDBD25;
         <!-- stopka strony -->
 
         <footer>Copyright &copy Ziemowit 2017</footer>
-
+        </section>
         <script type="text/javascript">
-
-        var canvas = document.getElementById('canvas');
-        var ctx = canvas.getContext('2d');
-        ctx.fillStyle = 'red';
-        ctx.fillRect(0,0,200,200);
-        ctx.fillStyle = 'green';
-        ctx.fillRect(0,120,100,230);
-
+            var canvas = document.getElementById('canvas');
+            var ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'red';
+            ctx.fillRect(0, 0, 200, 200);
+            ctx.fillStyle = 'green';
+            ctx.fillRect(0, 120, 100, 230);
         </script>
 
-    <!-- Wszystkie znaczniki zgodne z HTML5 -->
+        <!-- Wszystkie znaczniki zgodne z HTML5 -->
 
 </body>
 
